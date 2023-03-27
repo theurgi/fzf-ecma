@@ -1,0 +1,18 @@
+{
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"dev": "turbo run dev",
+		"test": "turbo run test"
+	},
+	"devDependencies": {
+		"@changesets/cli": "^2.26.1",
+		"@theurgi/eslint-config": "^1.8.0",
+		"eslint": "^8.36.0",
+		"prettier": "^2.8.7",
+		"tsup": "^6.7.0",
+		"turbo": "^1.8.5",
+		"typescript": "^5.0.2"
+	},
+	"packageManager": "pnpm@7.27.0"
+}
