@@ -45,7 +45,7 @@ jobs:
         run: pnpm run build
 
       - name: Create changeset release
-        run: pnpm changeset version
+        uses: changesets/action@v1
 
       - name: Publish to npm
         run: pnpm publish -r --access=public
