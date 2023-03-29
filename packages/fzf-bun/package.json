@@ -1,12 +1,26 @@
 {
-  "name": "fzf-bun",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "fzf-bun",
+	"version": "0.0.0",
+	"description": "Bun bindings for the golang fzf fuzzy finder",
+	"keywords": [
+		"fzf",
+		"nodejs",
+		"fuzzy-finder",
+		"fzf-ecma",
+		"fzf-node"
+	],
+	"license": "MIT",
+	"author": "theurgi",
+	"files": [
+		"dist"
+	],
+	"main": "dist/main.js",
+	"module": "dist/main.js",
+	"types": "dist/main.d.ts",
+	"scripts": {
+		"build": "tsup"
+	},
+	"devDependencies": {
+		"bun-types": "^0.5.8"
+	}
 }

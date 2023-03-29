@@ -1,13 +1,12 @@
 {
 	"private": true,
 	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"test": "turbo run test"
+		"build": "turbo run build"
 	},
 	"devDependencies": {
 		"@changesets/cli": "^2.26.1",
 		"@theurgi/eslint-config": "^1.8.0",
+		"@types/node": "^18.15.10",
 		"eslint": "^8.36.0",
 		"prettier": "^2.8.7",
 		"tsup": "^6.7.0",
