@@ -1,6 +1,9 @@
 {
 	"name": "fzf-bun",
 	"version": "0.1.0",
+	"publishConfig": {
+		"access": "public"
+	},
 	"description": "Bun bindings for the golang fzf fuzzy finder",
 	"keywords": [
 		"fzf",
