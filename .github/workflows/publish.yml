@@ -46,6 +46,8 @@ jobs:
 
       - name: Create changeset release
         uses: changesets/action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to npm
         run: pnpm publish -r --access=public
