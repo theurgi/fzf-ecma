@@ -36,7 +36,7 @@ Runs fzf as a child process with the specified options and returns the selected 
 
 ### Return type
 
-`Promise<T extends '--multi' ? string[] : string>`
+**Promise<T extends '--multi' ? string[] : string>**
 
 If the `--multi` fzf option is provided to `options?: OptionType[]` then `fzf`
-will return `Promise<string[]>` other wise it will return `Promise<string>`.
+will return `Promise<string[]>` otherwise it will return `Promise<string>`.
