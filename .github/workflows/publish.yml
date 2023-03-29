@@ -48,7 +48,7 @@ jobs:
         run: pnpm changeset version
 
       - name: Publish to npm
-        run: pnpm turbo run npm-publish
+        run: pnpm publish -r --access=public
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
