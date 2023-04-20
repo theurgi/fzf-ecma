@@ -1,4 +1,4 @@
-import { exec, spawn } from 'node:child_process'
+import { spawn } from 'node:child_process'
 
 /**
  * Represents an option type for the fzf function.
@@ -25,16 +25,6 @@ export async function fzf<T extends OptionType>(
 	selections: string[],
 	options?: T[]
 ): Promise<T extends '--multi' ? string[] : string> {
-	if (!exec('fzf').pid) {
-		process.stderr.write(
-			`The 'fzf' executable is required for fzf-node but was not found in your PATH.`
-		)
-		process.stdout.write(
-			'See https://github.com/junegunn/fzf#installation for fzf installation instructions.'
-		)
-		process.exit(1)
-	}
-
 	const fzf = spawn('fzf', [...(options || '')], {
 		stdio: ['pipe', 'pipe', 'inherit'],
 	})

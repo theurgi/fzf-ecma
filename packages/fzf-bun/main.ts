@@ -25,16 +25,6 @@ export async function fzf<T extends OptionType>(
 	selections: string[],
 	options?: T[]
 ): Promise<T extends '--multi' ? string[] : string> {
-	if (!Bun.which('fzf')) {
-		process.stderr.write(
-			`The 'fzf' executable is required for fzf-bun but was not found in your PATH.\n`
-		)
-		process.stdout.write(
-			'See https://github.com/junegunn/fzf#installation for fzf installation instructions.\n'
-		)
-		process.exit(1)
-	}
-
 	const fzf = Bun.spawn(['fzf', ...(options || [])], {
 		stdin: 'pipe',
 		stdout: 'pipe',
