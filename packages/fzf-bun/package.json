@@ -17,8 +17,8 @@
 	"files": [
 		"dist"
 	],
-	"main": "dist/main.js",
-	"module": "dist/main.js",
+	"main": "dist/main.mjs",
+	"module": "dist/main.mjs",
 	"types": "dist/main.d.ts",
 	"scripts": {
 		"build": "tsup"
