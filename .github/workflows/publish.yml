@@ -56,11 +56,6 @@ jobs:
       - name: Create changeset release
         run: changeset version
 
-      - name: Publish packages to npm
-        run: pnpm publish -r --access=public
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
       - name: Commit and push changes
         run: |
           git config --local user.email "action@github.com"
@@ -68,3 +63,8 @@ jobs:
           git add .
           git commit -m "Release: Apply changeset version updates and package.json changes [skip ci]" || true
           git push
+
+      - name: Publish packages to npm
+        run: pnpm publish -r --access=public --no-git-checks
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
