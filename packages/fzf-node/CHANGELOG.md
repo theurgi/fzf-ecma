@@ -1,5 +1,11 @@
 # fzf-node
 
+## 0.1.2
+
+### Patch Changes
+
+- f4f9d3e: Removes code that checks if fzf is installed globally for improved performance.
+
 ## 0.1.1
 
 ### Patch Changes
