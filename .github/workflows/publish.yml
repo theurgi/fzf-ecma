@@ -61,7 +61,7 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add .
-          git commit -m "Release: Apply changeset version updates and package.json changes [skip ci]" || true
+          git commit -m "release: apply changeset updates [skip ci]" || true
           git push
 
       - name: Publish packages to npm
