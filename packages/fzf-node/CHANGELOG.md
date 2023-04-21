@@ -1,5 +1,11 @@
 # fzf-node
 
+## 0.1.3
+
+### Patch Changes
+
+- 79a27ef: Trim fzf selection output to remove newline
+
 ## 0.1.2
 
 ### Patch Changes
