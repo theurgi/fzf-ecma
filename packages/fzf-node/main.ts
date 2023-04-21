@@ -43,7 +43,7 @@ export async function fzf<T extends OptionType>(
 
 	return new Promise((resolve) => {
 		fzf.stdout.on('data', (selection: string) => {
-			resolve(selection)
+			resolve(selection.trim())
 		})
 	}) as unknown as T extends '--multi' ? string[] : string
 }

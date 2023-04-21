@@ -41,5 +41,5 @@ export async function fzf<T extends OptionType>(
 			: string
 	}
 
-	return selection as T extends '--multi' ? string[] : string
+	return selection.trim() as T extends '--multi' ? string[] : string
 }
