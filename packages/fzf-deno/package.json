@@ -1,0 +1,11 @@
+{
+	"name": "fzf-deno",
+	"version": "0.0.0",
+	"publishConfig": {
+		"access": "public"
+	},
+	"description": "Deno bindings for the golang fzf fuzzy finder",
+	"keywords": [],
+	"license": "MIT",
+	"scripts": {}
+}
