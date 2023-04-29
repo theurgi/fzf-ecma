@@ -28,6 +28,9 @@ importers:
     devDependencies:
       bun-types: 0.5.8
 
+  packages/fzf-deno:
+    specifiers: {}
+
   packages/fzf-node:
     specifiers: {}
 
