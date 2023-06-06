@@ -16,22 +16,13 @@ currently includes implementations for [Bun](https://bun.sh/) and
 
 ## Packages
 
-See each packages's README for specific installation and usage details.
+See each package's README for specific installation and usage details.
 
-<table>
-	<tr>
-		<td>
-			<a href="./packages/fzf-bun/">fzf-bun</a>
-		</td>
-		<td>fzf bindings for Bun</td>
-	</tr>
-	<tr>
-		<td>
-			<a href="./packages/fzf-node/">fzf-node</a>
-		</td>
-		<td>fzf bindings for Node.js</td>
-	</tr>
-</table>
+| Package                        | Latest                                     | Changelog                                   |
+| ------------------------------ | ------------------------------------------ | ------------------------------------------- |
+| [fzf-node](packages/fzf-node/) | ![](https://img.shields.io/npm/v/fzf-node) | [Changelog](packages/fzf-node/CHANGELOG.md) |
+| [fzf-bun](packages/fzf-bun/)   | ![](https://img.shields.io/npm/v/fzf-bun)  | [Changelog](packages/fzf-bun/CHANGELOG.md)  |
+| [fzf-deno](packages/fzf-deno/) | TODO                                       |                                             |
 
 ## Basic usage
 
