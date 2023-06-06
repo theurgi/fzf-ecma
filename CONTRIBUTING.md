@@ -65,6 +65,18 @@ git rebase upstream/main
 git push origin feature/my-new-feature
 ```
 
+## Opening a Pull Request
+
+1. Navigate to the original repository on GitHub.
+2. Click the 'Pull requests' tab.
+3. Click the 'New pull request' button.
+4. Click 'compare across forks'.
+5. In the 'head repository' dropdown, select your forked repository.
+6. In the 'compare' dropdown, select your branch.
+7. Click 'Create pull request'.
+8. Fill in the pull request form with a clear title and detailed description of your changes.
+9. Click 'Create pull request'.
+
 ## Reporting Issues
 
 If you find a bug or have a suggestion for improvement, please open a new issue

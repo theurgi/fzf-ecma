@@ -18,11 +18,36 @@ currently includes implementations for [Bun](https://bun.sh/) and
 
 See each package's README for specific installation and usage details.
 
-| Package                        | Latest                                     | Changelog                                   |
-| ------------------------------ | ------------------------------------------ | ------------------------------------------- |
-| [fzf-node](packages/fzf-node/) | ![](https://img.shields.io/npm/v/fzf-node) | [Changelog](packages/fzf-node/CHANGELOG.md) |
-| [fzf-bun](packages/fzf-bun/)   | ![](https://img.shields.io/npm/v/fzf-bun)  | [Changelog](packages/fzf-bun/CHANGELOG.md)  |
-| [fzf-deno](packages/fzf-deno/) | TODO                                       |                                             |
+<table>
+  <tr>
+    <th>Package</th>
+    <th>Latest</th>
+    <th>Changelog</th>
+  </tr>
+  <tr>
+    <td><a href="packages/fzf-node/">fzf-node</a></td>
+    <td>
+     <a href="https://www.npmjs.com/package/fzf-node">
+      <img src="https://img.shields.io/npm/v/fzf-node">
+     </a>
+    </td>
+    <td><a href="packages/fzf-node/CHANGELOG.md">Changelog</a></td>
+  </tr>
+  <tr>
+    <td><a href="packages/fzf-bun/">fzf-bun</a></td>
+    <td>
+     <a href="https://www.npmjs.com/package/fzf-bun">
+      <img src="https://img.shields.io/npm/v/fzf-bun">
+     </a>
+    </td>
+    <td><a href="packages/fzf-bun/CHANGELOG.md">Changelog</a></td>
+  </tr>
+  <tr>
+    <td><a href="packages/fzf-deno/">fzf-deno</a></td>
+    <td>TODO</td>
+    <td></td>
+  </tr>
+</table>
 
 ## Basic usage
 
